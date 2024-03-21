@@ -12,6 +12,7 @@ public class User_01_Register_Login {
 
 	  @Test
 	  public void TC_01 () {
+		  System.out.println("Hello word");
 	  }
 	 
 	  @AfterClass
