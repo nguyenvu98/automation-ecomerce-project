@@ -2,7 +2,7 @@
 <suite name="Ecomerce">
   <test name="Run on Firefox">
     <classes>
-      <class name="com.ecomerce.user.User_01_Register_Login"/>
+      <class name="com.ecomerce.user.Level_03_Page_Object"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
