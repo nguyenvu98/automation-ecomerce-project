@@ -9,8 +9,8 @@ import pageUIs.RegisterPageUI;
 public class RegisterPageObject extends BasePage {
 	private WebDriver driver;
 	
-	public RegisterPageObject(WebDriver driver) {
-		this.driver = driver;
+	public RegisterPageObject(WebDriver mappingDriver) {
+		driver = mappingDriver;
 	}
 
 	public void clickToRegisterButton() {
@@ -64,6 +64,7 @@ public class RegisterPageObject extends BasePage {
 		sendkeyToElement(driver, RegisterPageUI.PASSWORD_TEXTBOX, password);
 
 	}
+	
 
 	public void inputToConfirmPasswordTextbox(String confirmPassword) {
 		waitForElementVisible(driver, RegisterPageUI.CONFIRM_PASSWORD_TEXTBOX);

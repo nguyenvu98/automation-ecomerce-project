@@ -24,7 +24,7 @@ public class BasePage {
 		return new BasePage();
 	}
 	
-	public long longTimeout = 30;
+	public long longTimeout = 50;
 	
 	public void openPageUrl(WebDriver driver, String pageUrl) {
 		driver.get(pageUrl);
