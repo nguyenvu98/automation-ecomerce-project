@@ -9,6 +9,8 @@ public class RegisterPageUI {
 	public static final String REGISTER_BUTTON = "//button[@id='register-button']";
 
 	public static final String FIRSTNAME_ERROR_MESSAGE = "//span[@id='FirstName-error']";
+//	public static final String FIRSTNAME_ERROR_MESSAGE_1 = "//span[text()='First name is required.']";
+
 	public static final String LASTNAME_ERROR_MESSAGE = "//span[@id='LastName-error']";
 	public static final String EMAIL_ERROR_MESSAGE = "//span[@id='Email-error']";
 	public static final String PASSWORD_ERROR_MESSAGE = "//span[@id='Password-error']";
